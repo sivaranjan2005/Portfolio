@@ -1,0 +1,145 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #81C784;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #a5d6a7;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Career Section */
+#career {
+    padding: 50px;
+    background-color: #c8e6c9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #dcedc8;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.skill h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #388e3c;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px;
+    background-color: #81c784;
+    text-align: center;
+}
+
+.resume-btn {
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-btn:hover {
+    background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
